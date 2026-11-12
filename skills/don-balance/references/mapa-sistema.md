@@ -7,13 +7,13 @@
 ### 5.1 Hojas
 | Grupo | Hojas | ¿Se escribe a mano? |
 |---|---|---|
-| Base | **Config** · **P. Cuentas** · **Libro Diario** | Config: sí (celdas amarillas). P. Cuentas: no (usa el Editor). Libro Diario: lo escriben los formularios; a mano solo con cuidado |
+| Base | **Config** · **P. Cuentas** · **Libro Diario** | Config: sí (celdas amarillas). P. Cuentas: no (usa el Editor). Libro Diario: lo escriben los formularios (modalidad 2); a mano solo con cuidado (modalidad 1, `formato-plantilla.md` §9); con el conector solo por `carga-directa-mcp.md` (modalidad 3, pendiente de validación) |
 | Respaldo tributario | **RCV Compras** · **RCV Ventas** | No: se importan |
 | Automáticas (candado) | Libro Mayor · Mayor Analítico · Balance General (8 columnas) · Balance Clasificado · Estado Resultados · Flujo de Caja · Ratios Financieros · IVA Mensual · Resumen Ejecutivo | **Nunca** |
 | Cobros, pagos y banco | **CxC** · **CxP** · **Cartola Bancaria** | CxC/CxP: ID, documento, condición y notas. El resto son fórmulas. Cartola: se importa |
 | Maestros | Clientes · Proveedores · Personal · Sucursales · Proyectos · Centro Gasto · Centro Negocio | Sí. Rótulos en la fila 3; datos desde la fila 4 |
 | Procesos | F29 · Remuneraciones · Rem Configuración · Activos Fijos · AF Configuración · AF Arrastre | Remuneraciones: los importes por concepto. El resto, desde su formulario |
-| Registro | Historial PDFs | No |
+| Registro | Historial PDFs | No (puede no existir hasta generar el primer PDF) |
 | Técnicas ocultas | `_Registro Asientos`, `_Operaciones`, `_Preferencias`, `_Honorarios`… | **Nunca** |
 
 ### 5.2 Libro Diario: columnas
@@ -38,6 +38,8 @@ Cabecera en la fila 4; los datos empiezan en la fila 5. Cada línea del asiento 
 | AH en adelante | Técnicas: no tocar |
 
 ### 5.3 Config: celdas clave
+El rótulo está en la columna B, el **valor en la columna C** y la ayuda en D (Verificado 2026-11-12). Las celdas de abajo son las de la columna C.
+
 | Celda | Qué es |
 |---|---|
 | Filas 8 a 23 | Datos de la empresa. Razón social (C8) y RUT (C10) bastan para empezar; van en la cabecera de los PDF |

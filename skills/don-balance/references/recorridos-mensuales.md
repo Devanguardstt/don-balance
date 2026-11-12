@@ -5,6 +5,8 @@
 ## 6. Recorridos paso a paso
 
 ### 6.0 Ruta del primer mes
+Si es la primera vez con la empresa, partir por el diagnóstico inicial (`diagnostico-inicial.md`): lee el estado de la planilla y arma esta ruta solo con lo que falta.
+
 **Una sola vez:**
 1. Config (§5.3).
 2. Plan de cuentas (§6.1).

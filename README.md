@@ -9,6 +9,9 @@ Don Balance explica cada paso, lee la planilla contigo y opera los formularios e
 - Te guía en el mes: importar el RCV y la cartola, contabilizar ventas y compras, cobros y pagos, F29, remuneraciones, honorarios, activos fijos, renta y cierre.
 - Revisa asientos que no cuadran, meses incompletos, diferencias de IVA y documentos sin contabilizar.
 - Explica la contabilidad y la tributación chilena aplicadas a lo que estás haciendo.
+- La primera vez hace un diagnóstico de solo lectura de tu planilla y arma un plan con lo que falta.
+- Si lo autorizas, guarda una memoria por empresa en `Documentos/Don Balance/` (nunca claves ni sueldos).
+- Puede cargar asientos de otros sistemas (Defontana, Nubox, Excel) con el conector de Google Sheets. Esta función está **pendiente de validación**.
 
 No presenta ni paga nada en el SII, el banco ni Previred.
 
@@ -18,7 +21,7 @@ No presenta ni paga nada en el SII, el banco ni Previred.
 2. Abre tu copia de la planilla en Google Chrome.
 3. Dile a Claude: «Actúa como Don Balance en mi planilla».
 
-Para que Claude opere la planilla necesitas Claude en Chrome. Sin eso, Don Balance te guía paso a paso y tú haces los clics.
+Para que Claude opere la planilla necesitas Claude en Chrome; para leerla más rápido, el conector de Google Sheets. Sin eso, Don Balance te guía paso a paso y tú haces los clics.
 
 ## Instalación
 

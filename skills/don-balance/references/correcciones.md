@@ -30,6 +30,7 @@ Eliminar un asiento **no deshace el pago real en el banco**.
 - Queda «en revisión» y el módulo no lo usa.
 - Para resolverlo, restablécelo (*Archivo › Historial de versiones*, con permiso del usuario) o elimínalo desde su formulario.
 - Si se borró entero, en *Revisar operaciones pendientes* se puede dar de baja su registro.
+- Un asiento cargado con el conector (modalidad 3) o escrito a mano no tiene identidad de formulario: no se elimina desde «Registradas» y se corrige a mano, con vista previa y «sí» (`carga-directa-mcp.md` §5).
 
 ### 9.5 Problemas frecuentes
 | Síntoma | Causa probable | Qué hacer |
